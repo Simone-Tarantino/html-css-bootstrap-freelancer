@@ -16,9 +16,21 @@
 
 .main_header_content {
   text-align: center;
-
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.h2_title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.portfolio_section {
+  background-color: green;
+}
+
+.margin_top_20 {
+  margin-top: 20px;
 }
