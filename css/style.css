@@ -1,0 +1,24 @@
+.nav {
+  background-color: blue;
+  height: 70px;
+}
+
+.debug_r {
+  background-color: red;
+  line-height: 70px;
+}
+
+.debug_y {
+  background-color: yellow;
+  height: 600px;
+  position: relative;
+}
+
+.main_header_content {
+  text-align: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
