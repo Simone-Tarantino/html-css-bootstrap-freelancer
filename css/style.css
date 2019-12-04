@@ -1,5 +1,5 @@
 .nav {
-  background-color: blue;
+  background-color: #2C3E50;
   height: 70px;
   position: fixed;
   top: 0;
@@ -8,9 +8,40 @@
   z-index: 3;
 }
 
-.debug_r {
-  background-color: red;
+.logo_nav {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.line_height_nav {
   line-height: 70px;
+}
+
+.btn_nav_style {
+  color: white;
+  font-weight: bold;
+  background-color: #1ABC9C;
+}
+.btn_nav_style:hover {
+  background-color: #148F77;
+  color: white;
+}
+.btn .glyphicon {
+  vertical-align: text-top;
 }
 
 .debug_y {
