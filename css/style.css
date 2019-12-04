@@ -20,6 +20,10 @@
   background-color: #2C3E50;
 }
 
+.margin_top_bot {
+  margin: 80px auto;
+}
+
 
 .nav {
   height: 70px;
@@ -199,11 +203,34 @@ h1 {
 }
 
 /* footer */
+
+footer h3 {
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
 /* footer top */
+
+.footer_top ul {
+  text-align: center;
+}
 
 .footer_top ul li {
   list-style: none;
   display: inline-block;
+}
+.bluegreen_link {
+  color: #1ABC9C;
+  text-decoration: none;
+}
+.bluegreen_link:hover {
+  color: #148F77;
 }
 
 /* footer bot */
