@@ -1,3 +1,6 @@
+/* header */
+/* navbar */
+
 .nav {
   background-color: #2C3E50;
   height: 70px;
@@ -44,19 +47,48 @@ nav ul li a {
   vertical-align: text-top;
 }
 
-.debug_y {
-  background-color: yellow;
-  height: 600px;
-  position: relative;
+/* contenuto principale header */
+
+.main_header {
+  background-color: #1ABC9C;
   margin-top: 70px;
+  padding: 90px 0;
+  color: white;
+}
+.main_header p {
+  font-size: 25px;
 }
 
-.main_header_content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+h1 {
+  font-size: 60px;
+  font-weight: bold;
 }
+
+.divider {
+  margin-bottom: 20px;
+}
+
+.divider hr {
+  display: inline-block;
+  width: 120px;
+  vertical-align: middle;
+  border: none;
+  height: 4px;
+  background: white;
+  border-radius: 2px;
+}
+.divider i {
+  vertical-align: middle;
+  margin: 0 20px;
+  font-size: 30px;
+}
+
+.main_header_img {
+  height: 250px;
+}
+
+
+/* inizio main */
 
 .h2_title {
   margin-top: 100px;
