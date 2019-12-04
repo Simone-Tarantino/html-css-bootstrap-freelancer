@@ -1,6 +1,11 @@
 .nav {
   background-color: blue;
   height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
 }
 
 .debug_r {
@@ -12,10 +17,10 @@
   background-color: yellow;
   height: 600px;
   position: relative;
+  margin-top: 70px;
 }
 
 .main_header_content {
-  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,12 +28,13 @@
 }
 
 .h2_title {
-  text-align: center;
   margin-top: 100px;
 }
 
 .portfolio_section {
   background-color: green;
+  margin-top: 30px;
+  border-radius: 2%;
 }
 
 .margin_top_20 {
@@ -44,7 +50,6 @@
 }
 
 .about_content {
-  text-align: center;
   padding-bottom: 100px;
 }
 
