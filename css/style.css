@@ -16,10 +16,12 @@
   color: white;
 }
 
+.bg_darkblue {
+  background-color: #2C3E50;
+}
 
 
 .nav {
-  background-color: #2C3E50;
   height: 70px;
   position: fixed;
   top: 0;
@@ -197,16 +199,20 @@ h1 {
 }
 
 /* footer */
+/* footer top */
 
-.footer_top {
-  background-color: blue;
+.footer_top ul li {
+  list-style: none;
+  display: inline-block;
 }
 
+/* footer bot */
+
 .footer_bot {
-  background-color: darkblue;
+  background-color: #1A252F;
   text-align: center;
-  height: 50px;
-  line-height: 50px;
+  height: 80px;
+  line-height: 80px;
 }
 
 /* media query */
