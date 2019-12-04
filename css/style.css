@@ -87,7 +87,6 @@ h1 {
   height: 250px;
 }
 
-
 /* inizio main */
 
 .h2_title {
@@ -95,9 +94,36 @@ h1 {
 }
 
 .portfolio_section {
-  background-color: green;
   margin-top: 30px;
-  border-radius: 2%;
+  border-radius: 3%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_1 {
+  background-image: url("../img/cabin.png");
+}
+
+.bg_2 {
+  background-image: url("../img/cake.png");
+}
+
+.bg_3 {
+  background-image: url("../img/circus.png");
+}
+
+.bg_4 {
+  background-image: url("../img/game.png");
+}
+
+.bg_5 {
+  background-image: url("../img/safe.png");
+}
+
+.bg_6 {
+  background-image: url("../img/submarine.png");
 }
 
 .margin_top_20 {
@@ -130,6 +156,13 @@ h1 {
 
 /* media query */
 
+
+@media screen and (max-width: 1200px) {
+  .portfolio_section {
+    height: 200px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 50px;
@@ -137,5 +170,16 @@ h1 {
 
   .main_header p {
     font-size: 20px;
+  }
+
+  .portfolio_section {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio_section {
+    width: 390px;
+    margin: 30px auto;
   }
 }
