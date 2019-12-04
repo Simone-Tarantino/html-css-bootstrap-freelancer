@@ -16,6 +16,8 @@
   color: white;
 }
 
+
+
 .nav {
   background-color: #2C3E50;
   height: 70px;
@@ -185,6 +187,14 @@ h1 {
   background-color: white;
 }
 
+/* sezione contattami */
+
+.btn_send {
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 400;
+
+}
 
 /* footer */
 
