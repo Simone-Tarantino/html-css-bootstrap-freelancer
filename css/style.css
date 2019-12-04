@@ -1,5 +1,17 @@
-/* header */
-/* navbar */
+/* regole generali */
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.h2_title {
+  margin-top: 100px;
+  font-size: 55px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .margin_top_20 {
   margin-top: 20px;
 }
@@ -24,13 +36,15 @@
   margin: 80px auto;
 }
 
+/* header */
+/* navbar */
 
 .nav {
-  height: 70px;
   position: fixed;
+  height: 70px;
+  width: 100%;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 3;
 }
 
@@ -41,14 +55,14 @@
 
 nav ul li {
   display: inline-block;
-  list-style: none;
   margin-left: 20px;
+  list-style: none;
 }
 
 nav ul li a {
-  text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .line_height_nav {
@@ -75,11 +89,6 @@ nav ul li a {
   font-size: 25px;
 }
 
-h1 {
-  font-size: 70px;
-  font-weight: bold;
-}
-
 .divider {
   margin-bottom: 20px;
 }
@@ -87,11 +96,11 @@ h1 {
 .divider hr {
   display: inline-block;
   width: 120px;
+  height: 4px;
   vertical-align: middle;
   border: none;
-  height: 4px;
-  background: white;
   border-radius: 2px;
+  background: white;
 }
 .divider i {
   vertical-align: middle;
@@ -106,13 +115,6 @@ h1 {
 /* inizio main */
 /* sezione portfolio */
 
-.h2_title {
-  margin-top: 100px;
-  text-transform: uppercase;
-  font-size: 55px;
-  font-weight: bold;
-}
-
 .divider.blue hr {
   background: #2C3E50;
 }
@@ -121,21 +123,21 @@ h1 {
 }
 
 .portfolio_section {
+  position: relative;
+  height: 250px;
   margin-top: 30px;
   border-radius: 3%;
-  height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .overlay_hover {
+  visibility: hidden;
   height: 100%;
   width: 100%;
-  background-color: rgba(26, 187, 156, 0.89);
   border-radius: 3%;
-  visibility: hidden;
+  background-color: rgba(26, 187, 156, 0.89);
 }
 .portfolio_section:hover .overlay_hover {
   visibility: visible;
@@ -178,16 +180,16 @@ h1 {
   padding-bottom: 100px;
 }
 .about_content p {
-  font-size: 20px;
   line-height: 30px;
+  font-size: 20px;
 }
 
 .btn_no_bg {
   margin-top: 30px;
-  text-transform: capitalize;
-  border: 2px solid white;
-  font-size: 20px;
   padding: 15px 30px
+  border: 2px solid white;
+  text-transform: capitalize;
+  font-size: 20px;
 }
 .btn_no_bg:hover {
   background-color: white;
@@ -205,10 +207,10 @@ h1 {
 /* footer */
 
 footer h3 {
-  font-weight: bold;
-  font-size: 25px;
-  text-transform: uppercase;
   margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 footer p {
@@ -236,14 +238,12 @@ footer p {
 /* footer bot */
 
 .footer_bot {
-  background-color: #1A252F;
-  text-align: center;
   height: 80px;
   line-height: 80px;
+  background-color: #1A252F;
 }
 
 /* media query */
-
 
 @media screen and (max-width: 1200px) {
   .portfolio_section {
